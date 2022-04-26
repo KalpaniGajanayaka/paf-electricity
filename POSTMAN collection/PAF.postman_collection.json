@@ -1,0 +1,717 @@
+{
+	"info": {
+		"_postman_id": "27554bef-6df2-49c4-a7a7-3c8e9ede4d2d",
+		"name": "PAF",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/ApiManager/webapi/masterAPI/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/ApiManager/webapi/masterAPI/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ApiManager",
+						"webapi",
+						"masterAPI",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/ApiManager/webapi/masterAPI/getAllInquriy",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/ApiManager/webapi/masterAPI/getAllInquriy",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ApiManager",
+						"webapi",
+						"masterAPI",
+						"getAllInquriy"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/ApiManager/webapi/masterAPI/addInquriy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "accout_num",
+							"value": "acc00001",
+							"type": "text"
+						},
+						{
+							"key": "contact_num",
+							"value": "0711531225",
+							"type": "text"
+						},
+						{
+							"key": "descrption",
+							"value": "meter bord not working",
+							"type": "text"
+						},
+						{
+							"key": "action",
+							"value": "pending",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/ApiManager/webapi/masterAPI/addInquriy",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ApiManager",
+						"webapi",
+						"masterAPI",
+						"addInquriy"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/ApiManager/webapi/masterAPI/updateInquriy",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "accout_num",
+							"value": "acc00001",
+							"type": "text"
+						},
+						{
+							"key": "contact_num",
+							"value": "0711531225",
+							"type": "text"
+						},
+						{
+							"key": "descrption",
+							"value": "meter bord not working",
+							"type": "text"
+						},
+						{
+							"key": "action",
+							"value": "Complete",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "idinquiry",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/ApiManager/webapi/masterAPI/updateInquriy",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ApiManager",
+						"webapi",
+						"masterAPI",
+						"updateInquriy"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/ApiManager/webapi/masterAPI/removeInquriy",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "idinquiry",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/ApiManager/webapi/masterAPI/removeInquriy",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ApiManager",
+						"webapi",
+						"masterAPI",
+						"removeInquriy"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/ApiManager/webapi/masterAPI/getAllCoustomer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/ApiManager/webapi/masterAPI/getAllCoustomer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ApiManager",
+						"webapi",
+						"masterAPI",
+						"getAllCoustomer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/ApiManager/webapi/masterAPI/addCoustomer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Chamra Gamlath",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "No.12, main st, Awissawella",
+							"type": "text"
+						},
+						{
+							"key": "contact_num",
+							"value": "0786033999",
+							"type": "text"
+						},
+						{
+							"key": "accout_num",
+							"value": "acc00002",
+							"type": "text"
+						},
+						{
+							"key": "con_get_date",
+							"value": "2022-04-24",
+							"type": "text"
+						},
+						{
+							"key": "area",
+							"value": "Avissawella-D1",
+							"type": "text"
+						},
+						{
+							"key": "mail",
+							"value": "chamra@gamil.com",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/ApiManager/webapi/masterAPI/addCoustomer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ApiManager",
+						"webapi",
+						"masterAPI",
+						"addCoustomer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/ApiManager/webapi/masterAPI/updateCoustomer",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Chamra ",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "No.12, main st, Awissawella",
+							"type": "text"
+						},
+						{
+							"key": "contact_num",
+							"value": "0786033999",
+							"type": "text"
+						},
+						{
+							"key": "accout_num",
+							"value": "acc00002",
+							"type": "text"
+						},
+						{
+							"key": "con_get_date",
+							"value": "2022-04-24",
+							"type": "text"
+						},
+						{
+							"key": "area",
+							"value": "Avissawella-D2",
+							"type": "text"
+						},
+						{
+							"key": "mail",
+							"value": "chamra@gamil.com",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "idcoustomer",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/ApiManager/webapi/masterAPI/updateCoustomer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ApiManager",
+						"webapi",
+						"masterAPI",
+						"updateCoustomer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/ApiManager/webapi/masterAPI/removeCoustomer",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "idcoustomer",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/ApiManager/webapi/masterAPI/removeCoustomer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ApiManager",
+						"webapi",
+						"masterAPI",
+						"removeCoustomer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/ApiManager/webapi/masterAPI/getAllBills",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/ApiManager/webapi/masterAPI/getAllBills",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ApiManager",
+						"webapi",
+						"masterAPI",
+						"getAllBills"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/ApiManager/webapi/masterAPI/addBills",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "account_num",
+							"value": "acc00001",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Kalpani Gajanayaka",
+							"type": "text"
+						},
+						{
+							"key": "dates",
+							"value": "2022-04-25",
+							"type": "text"
+						},
+						{
+							"key": "unit",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "amount",
+							"value": "1200",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/ApiManager/webapi/masterAPI/addBills",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ApiManager",
+						"webapi",
+						"masterAPI",
+						"addBills"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/ApiManager/webapi/masterAPI/updateBills",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "account_num",
+							"value": "acc00001",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Kalpani Gajanayaka",
+							"type": "text"
+						},
+						{
+							"key": "dates",
+							"value": "2022-04-25",
+							"type": "text"
+						},
+						{
+							"key": "unit",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "amount",
+							"value": "1100",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "idbills",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/ApiManager/webapi/masterAPI/updateBills",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ApiManager",
+						"webapi",
+						"masterAPI",
+						"updateBills"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/ApiManager/webapi/masterAPI/removeBills",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "idbills",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/ApiManager/webapi/masterAPI/removeBills",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ApiManager",
+						"webapi",
+						"masterAPI",
+						"removeBills"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/ApiManager/webapi/masterAPI/getAllInterruption",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/ApiManager/webapi/masterAPI/getAllInterruption",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ApiManager",
+						"webapi",
+						"masterAPI",
+						"getAllInterruption"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/ApiManager/webapi/masterAPI/addInterruption",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "area_code",
+							"value": "M-D1",
+							"type": "text"
+						},
+						{
+							"key": "area",
+							"value": "Malabe",
+							"type": "text"
+						},
+						{
+							"key": "dates",
+							"value": "2022-04-25",
+							"type": "text"
+						},
+						{
+							"key": "time",
+							"value": "10.30 - 12.00",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/ApiManager/webapi/masterAPI/addInterruption",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ApiManager",
+						"webapi",
+						"masterAPI",
+						"addInterruption"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/ApiManager/webapi/masterAPI/updateInterruption",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "area_code",
+							"value": "M-D2",
+							"type": "text"
+						},
+						{
+							"key": "area",
+							"value": "Kothalawala",
+							"type": "text"
+						},
+						{
+							"key": "dates",
+							"value": "2022-04-25",
+							"type": "text"
+						},
+						{
+							"key": "time",
+							"value": "9.30 - 11.00",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "idinterruption",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/ApiManager/webapi/masterAPI/updateInterruption",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ApiManager",
+						"webapi",
+						"masterAPI",
+						"updateInterruption"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/ApiManager/webapi/masterAPI/removeInterruption",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "idinterruption",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/ApiManager/webapi/masterAPI/removeInterruption",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ApiManager",
+						"webapi",
+						"masterAPI",
+						"removeInterruption"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
